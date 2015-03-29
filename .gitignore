@@ -1,0 +1,7 @@
+
+# Python stuff
+*.pyc
+venv/
+
+# Text editor stuff
+*~
