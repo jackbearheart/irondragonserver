@@ -5,6 +5,10 @@ from twisted.web.static import File
 
 import api
 
+# route imports
+import get
+import create
+
 
 class IronDragonServer(resource.Resource):
     def render_GET(self, request):
