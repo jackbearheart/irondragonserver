@@ -6,8 +6,8 @@ from twisted.web.static import File
 import api
 
 # route imports
-import get
-import create
+import irondragon.create
+import irondragon.get
 
 
 class IronDragonServer(resource.Resource):
@@ -23,6 +23,3 @@ def main():
     root.putChild('api', IronDragonServer())
     reactor.listenTCP(8000, Site(root))
     reactor.run()
-
-if __name__ == '__main__':
-    main()

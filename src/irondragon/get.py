@@ -1,7 +1,7 @@
 
-from api import command
-import state
-from state import expects_game
+from irondragon import state
+from irondragon.framework.api import command
+from irondragon.state import expects_game
 
 
 @command('get')

@@ -1,5 +1,5 @@
 
-import static_state
+from irondragon import static_state
 
 GAMES = {}
 
